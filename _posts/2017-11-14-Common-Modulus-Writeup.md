@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Code Blue 2017 - Common Modulus 1 Writeup
+tags: 
+- ctf
+- writeups
+- code blue 2017
+- crypto
 ---
 
 I'm starting off this blog with a super easy writeup. The following problem was (at the time I solved it) the most solved problem in the CTF. In the coming days, I'll *hopefully* update with more writeups. I'm currently working through [RPISEC's amazing MBE course](https://github.com/RPISEC/MBE) and want to eventually post writeups of those labs.
