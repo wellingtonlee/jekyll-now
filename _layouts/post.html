@@ -7,8 +7,10 @@ layout: default
   <div class="date">
     {{ page.date | date: "%B %e, %Y" }}
   </div>
-  <div class="tags">
-    {{ page.tags }}
+  <div class="tags"> Tags: 
+    {.% for tag in page.tags }
+    <span>{{tag}} </span>
+    {.% endfor %}
   </div>
 
   <div class="entry">
