@@ -22,13 +22,13 @@ class CheckParentheses(object):
             return False
         
         stack = []
-        
+        d = {')' : '(', '}': '{', ']': '['}
         for c in s:
             if c in ['(', '{', '[']:
                 stack.append(c)
             else:
                 res = stack.pop()
-                if (c == ')' and res != '(') or (c == '}' and res != '{') or (c == ']' and res != '['):
+                if d[c] != res:
                     return False
         
         return True
